@@ -1,0 +1,7 @@
+type Query {
+  dummy: Object!
+}
+
+type Object {
+  two: Int!
+}

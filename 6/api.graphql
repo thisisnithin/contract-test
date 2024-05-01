@@ -1,0 +1,16 @@
+interface Interface {
+  name: String!
+}
+
+type Object {
+  age: Int!
+}
+
+type Query {
+  interface: Interface!
+  thing: Thing!
+}
+
+type Thing {
+  age: Int!
+}

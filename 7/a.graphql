@@ -1,0 +1,16 @@
+type Query {
+  interface: Interface!
+}
+
+type Object implements Interface {
+  name: String! @tag(name: "excludeMe")
+  age: Int!
+}
+
+interface Interface {
+  name: String!
+}
+
+type ObjectTwo implements Interface {
+  name: String!
+}

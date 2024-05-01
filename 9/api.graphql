@@ -1,0 +1,12 @@
+type Object {
+  age: Int!
+}
+
+type Query {
+  object: Object
+  thing: Thing!
+}
+
+type Thing {
+  age: Int!
+}

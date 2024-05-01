@@ -1,0 +1,9 @@
+type Query {
+  dummy: Object! @tag(name: "includeMe")
+}
+
+type Object {
+  one: Int @tag(name: "includeMe") @tag(name: "excludeMe")
+  two: Int! @tag(name: "includeMe")
+  three: Int!
+}

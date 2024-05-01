@@ -1,0 +1,15 @@
+type Query {
+  interface: Interface!
+}
+
+# Errors if implements Interface
+# Type "Interface" is @inaccessible but is referenced by "Query.interface", which is in the API schema.
+
+type Object {
+  name: String! @tag(name: "excludeMe")
+  age: Int!
+}
+
+interface Interface {
+  name: String!
+}

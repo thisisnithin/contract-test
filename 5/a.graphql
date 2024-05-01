@@ -1,0 +1,8 @@
+type Query {
+	thing: Thing!
+}
+
+type Thing {
+ name: String!
+ test: String!  @tag(name: "excludeMe")
+}

@@ -1,0 +1,8 @@
+type Query {
+  thing: Thing!
+}
+
+type Thing {
+  name: String!
+  age: Int!
+}

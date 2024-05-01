@@ -1,0 +1,13 @@
+type Query {
+ thing: Thing!
+}
+
+type Thing {
+ age: Int!
+ test: String!
+ bubble: Bubble!
+}
+
+type Bubble {
+	isError: Int! @tag(name: "excludeMe")
+}

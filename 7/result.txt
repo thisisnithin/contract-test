@@ -1,0 +1,2 @@
+IMPLEMENTED_BY_INACCESSIBLE
+Field "Object.name" is @inaccessible but implements the interface field "Interface.name", which is in the API schema.
